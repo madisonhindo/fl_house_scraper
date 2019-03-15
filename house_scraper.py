@@ -66,7 +66,6 @@ address_list = []
 phone_list = []
 
 def get_contact_info(contact_links):
-    global capitol_contact_list
     for contact in contact_links:
         driver.get('https://www.myfloridahouse.gov/' + contact)
         html = driver.page_source
