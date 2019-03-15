@@ -1,6 +1,6 @@
 # fl_house_scraper
 ## What I did
-I created a scraper to get the name, district, political party and contact information for each member of the Florida House of Representatives. 
+I created a scraper to get the name, district, political party and contact information for each member of the Florida House of Representatives. The link to the list of current representatives can be found [here](https://www.myfloridahouse.gov/Sections/Representatives/representatives.aspx)
 
 ## How I did it
 I used multiple functions to do this. The **get_rep_profiles()** function was used to grab links to the profile of every representative and store them into a list.
